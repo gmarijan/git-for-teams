@@ -32,3 +32,22 @@ The following work flow documents are referenced in the presentation:
 ## Acknowledgements
 
 Emma is grateful for the support she received while employed at Drupalize.Me (Lullabot) for the development of this material. The first version of the reveal.js slides for this work were posted at [workflow-git-workshop](https://github.com/DrupalizeMe/workflow-git-workshop).
+
+## Process
+
+1. Create a new ticket in your issue tracking system; note the number on the issue
+2. In your local repository, create a new branch using the format issuenumberdescription.
+3. Do the work described in the ticket (and only the work described in the ticket).
+4. Test your work and make sure it is complete and correct. Ensure it passes your
+QA test from the ticket you wrote in the development environment.
+5. You now have a “dirty” working directory that contains new and/or modified
+files. Add your changes to the staging area of your local repository.
+6. Commit your staged changes to the repository.
+7. Push your changes to a backup server. In many cases, this will also be where your
+tickets are being tracked, such as GitLab, Bitbucket, or GitHub. Depending on
+Issue-Basedyour ticketing system, the ticket may now be marked as resolved but not necessarily closed.
+8. When you are completely satisfied with your work, merge your ticket branch into
+your main branch (usually master) and push the revised branches to the code
+hosting system.
+9. Test your work again to ensure there are no follow-up issues.
+10. Update your ticket as appropriate to close it out.
